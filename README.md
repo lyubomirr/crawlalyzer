@@ -5,8 +5,8 @@ After finishing all the technologies are aggregated per single root URL.
 
 ## Usage:
 There are two command line arguments:
-- urls - Comma-separated urls to crawl.
-- follow-external - Specifies whether to follow external links.
+- `urls` - Comma-separated urls to crawl.
+- `follow-external` - Specifies whether to follow external links.
 
 Example usage:
 `go run main.go -urls=https://google.com -follow-external=true`
